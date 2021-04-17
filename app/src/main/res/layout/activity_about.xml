@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/teal_700"
+    tools:context=".About">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".About">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="40dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnBack"
+            android:layout_width="117dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginBottom="0dp"
+            android:background="@drawable/shapebtn"
+            android:padding="15dp"
+            android:text="back"
+            android:typeface="monospace" />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="My Profile"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:typeface="monospace"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="10dp"
+            android:text="I am a 20 year old software developer from Japan. I'm currently in my final year of completing my Diploma in Software Development. "
+            android:textSize="12sp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:justificationMode="inter_word"
+            android:typeface="monospace"/>
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginBottom="10dp"
+            app:srcCompat="@drawable/me" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:text="My Skills"
+        android:textSize="15dp"
+        android:textColor="@color/white"
+        android:layout_marginTop="20dp"
+
+        android:textStyle="bold"
+        android:typeface="monospace"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:text="I have years of experience in most of the programming languages out there namely JAVA, Python, C## JavaScript, Ruby etc. "
+        android:textSize="12dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/white"
+        android:justificationMode="inter_word"
+        android:textStyle="bold"
+        android:typeface="monospace"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="5dp"
+        android:text="I am familiar with most of the platforms out there, Netbeans, Eclips, Andriod Studio and Visual Studio. I may have forgotten to mentioned things like version control GitHub."
+        android:textSize="12dp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:justificationMode="inter_word"
+        android:typeface="monospace"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:text="My Hobbies? "
+        android:textSize="15dp"
+        android:textColor="@color/white"
+        android:layout_marginTop="20dp"
+
+        android:textStyle="bold"
+        android:typeface="monospace"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:text="I'm a huge car enthusiast and spend quite a bit of money on my cars. I'm involved in a lot of racing. I do build racecars as well  in my spare time and always interested in any car related activities. "
+        android:textSize="12dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/white"
+        android:justificationMode="inter_word"
+        android:textStyle="bold"
+        android:typeface="monospace"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:text="Future Plans? "
+        android:textSize="15dp"
+        android:textColor="@color/white"
+        android:layout_marginTop="20dp"
+
+        android:textStyle="bold"
+        android:typeface="monospace"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:text="I would like to build my own Software Development company. In the meantime, I would like to become a developer within my current workspace."
+        android:textSize="12dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/white"
+        android:justificationMode="inter_word"
+        android:textStyle="bold"
+        android:typeface="monospace"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:text="Extras "
+        android:textSize="15dp"
+        android:textColor="@color/white"
+        android:layout_marginTop="20dp"
+
+        android:textStyle="bold"
+        android:typeface="monospace"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:text="I have included some of my personal gallery below. Please scroll down."
+        android:textSize="12dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/white"
+        android:justificationMode="inter_word"
+        android:textStyle="bold"
+        android:typeface="monospace"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="My Gallery"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:typeface="monospace"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/black"
+        tools:context=".About">
+    <ImageView
+        android:layout_width="400dp"
+        android:layout_height="350dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"
+        app:srcCompat="@drawable/one" />
+    <ImageView
+        android:layout_width="324dp"
+        android:layout_height="350dp"
+        android:layout_marginLeft="46dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        app:srcCompat="@drawable/three" />
+    <ImageView
+        android:layout_width="324dp"
+        android:layout_height="350dp"
+        android:layout_marginLeft="46dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="8dp"
+        app:srcCompat="@drawable/two" />
+    <ImageView
+        android:layout_width="324dp"
+        android:layout_height="350dp"
+        android:layout_marginLeft="46dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="10dp"
+        app:srcCompat="@drawable/four" />
+
+    </LinearLayout>
+</LinearLayout>
+</ScrollView>
