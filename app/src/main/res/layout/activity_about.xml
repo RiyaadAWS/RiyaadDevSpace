@@ -209,29 +209,51 @@
     <ImageView
         android:layout_width="400dp"
         android:layout_height="350dp"
-        android:layout_marginLeft="8dp"
+        android:layout_gravity="center"
         android:layout_marginTop="20dp"
         app:srcCompat="@drawable/one" />
     <ImageView
         android:layout_width="324dp"
         android:layout_height="326dp"
-        android:layout_marginLeft="46dp"
+        android:layout_gravity="center"
         android:layout_marginTop="10dp"
         app:srcCompat="@drawable/three" />
     <ImageView
         android:layout_width="324dp"
         android:layout_height="326dp"
-        android:layout_marginLeft="46dp"
+        android:layout_gravity="center"
         android:layout_marginTop="10dp"
         app:srcCompat="@drawable/two" />
     <ImageView
         android:layout_width="324dp"
         android:layout_height="305dp"
-        android:layout_marginLeft="46dp"
+        android:layout_gravity="center"
         android:layout_marginTop="10dp"
         android:layout_marginBottom="10dp"
         app:srcCompat="@drawable/four" />
 
     </LinearLayout>
+
+     <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:background="@color/black"
+        tools:context=".About">
+         <ImageView
+             android:layout_width="150dp"
+             android:layout_height="150dp"
+             android:layout_marginLeft="44dp"
+             android:layout_marginTop="10dp"
+             app:srcCompat="@drawable/three"/>
+" />
+         <ImageView
+             android:layout_width="150dp"
+             android:layout_height="150dp"
+             android:layout_marginLeft="23dp"
+             android:layout_marginTop="10dp"
+             app:srcCompat="@drawable/two" />
+     </LinearLayout>
+
 </LinearLayout>
 </ScrollView>
